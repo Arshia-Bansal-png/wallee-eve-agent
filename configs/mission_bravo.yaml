@@ -1,0 +1,12 @@
+# Mission Bravo: HARD. 5 decoy clues vs 4 honest, wide-range spoof beacon (80% fake pings).
+mission: {name: mission_bravo, seed: 51}
+map: {width: 24, height: 24, wall_density: 0.18, chargers: 3}
+start: [2, 2]
+resources:
+  battery: 90
+  time: 260
+  reserve: 4
+  costs: {move: 1, ping: 3, probe: 2, recharge_rate: 8}
+clues: {honest: 4, decoy: 5}
+sensor: {power: 1.0, decay: 6.5, wall_att: 0.6, floor: 0.04, sigma_log: 0.24, sigma_bearing: 14.0, outlier: 0.10}
+spoof: {enabled: true, radius: 9.0, prob: 0.8}

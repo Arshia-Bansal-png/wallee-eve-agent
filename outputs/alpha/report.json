@@ -1,0 +1,47 @@
+{
+  "mission": "mission_alpha",
+  "agent": "Hunter (trust-aware)",
+  "outcome": "contact",
+  "estimate_xy": [
+    12,
+    21
+  ],
+  "confidence_within_2_cells": 1.0,
+  "confirmed_by_visual_contact": true,
+  "status_posterior": {
+    "active": 0.9499999999999998,
+    "dormant": 0.02500000000000002,
+    "damaged": 0.02500000000000002
+  },
+  "inferred_status": "active",
+  "credible_area_90_cells": 2,
+  "clues_found": 2,
+  "clue_trust": {
+    "c7": 0.98,
+    "c0": 0.98
+  },
+  "flagged_decoys": [],
+  "decoys_caught": [],
+  "false_alarms": [],
+  "pings": 3,
+  "probes": 3,
+  "ticks_used": 57,
+  "recommended_next_step": "EVE is ACTIVE at (12,21). Move adjacent, send the docking handshake and escort her to charger (0, 23).",
+  "ground_truth_for_evaluation": {
+    "eve": [
+      12,
+      21
+    ],
+    "status": "active",
+    "spoof_beacon": [
+      18,
+      7
+    ],
+    "error_cells": 0.0,
+    "decoy_clues": [
+      "c1",
+      "c4",
+      "c5"
+    ]
+  }
+}

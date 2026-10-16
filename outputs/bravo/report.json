@@ -1,0 +1,59 @@
+{
+  "mission": "mission_bravo",
+  "agent": "Hunter (trust-aware)",
+  "outcome": "contact",
+  "estimate_xy": [
+    22,
+    14
+  ],
+  "confidence_within_2_cells": 1.0,
+  "confirmed_by_visual_contact": true,
+  "status_posterior": {
+    "active": 0.025000000000000022,
+    "dormant": 0.025000000000000022,
+    "damaged": 0.95
+  },
+  "inferred_status": "damaged",
+  "credible_area_90_cells": 4,
+  "clues_found": 4,
+  "clue_trust": {
+    "c7": 0.02,
+    "c6": 0.029399866084600185,
+    "c5": 0.02,
+    "c4": 0.98
+  },
+  "flagged_decoys": [
+    "c7",
+    "c6",
+    "c5"
+  ],
+  "decoys_caught": [
+    "c7",
+    "c6",
+    "c5"
+  ],
+  "false_alarms": [],
+  "pings": 7,
+  "probes": 21,
+  "ticks_used": 229,
+  "recommended_next_step": "EVE is DAMAGED at (22,14). Do NOT tow. Stay adjacent, call for repair and shield her from the dust.",
+  "ground_truth_for_evaluation": {
+    "eve": [
+      22,
+      14
+    ],
+    "status": "damaged",
+    "spoof_beacon": [
+      16,
+      5
+    ],
+    "error_cells": 0.0,
+    "decoy_clues": [
+      "c0",
+      "c1",
+      "c5",
+      "c6",
+      "c7"
+    ]
+  }
+}

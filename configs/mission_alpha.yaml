@@ -1,0 +1,13 @@
+# Mission Alpha: spoof beacon ON, 3 decoy clues, random-blob junk-heap map
+mission: {name: mission_alpha, seed: 7}
+map: {width: 24, height: 24, wall_density: 0.16, chargers: 3}
+start: [2, 2]
+# initial_signal omitted -> generated from the hidden truth (see resolved values in the report)
+resources:
+  battery: 90
+  time: 260
+  reserve: 4
+  costs: {move: 1, ping: 3, probe: 2, recharge_rate: 8}
+clues: {honest: 5, decoy: 3}
+sensor: {power: 1.0, decay: 6.5, wall_att: 0.6, floor: 0.04, sigma_log: 0.24, sigma_bearing: 14.0, outlier: 0.10}
+spoof: {enabled: true, radius: 6.0, prob: 0.7}

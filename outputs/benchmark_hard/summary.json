@@ -1,0 +1,35 @@
+{
+ "stats": {
+  "Hunter (ours)": {
+   "found_EVE": 0.16666666666666666,
+   "localized_within_2": 0.5666666666666667,
+   "median_error": 1.705,
+   "mean_ticks_when_found": 28.2
+  },
+  "Hunter, no trust (ablation)": {
+   "found_EVE": 0.13333333333333333,
+   "localized_within_2": 0.6333333333333333,
+   "median_error": 1.41,
+   "mean_ticks_when_found": 33.25
+  },
+  "Gradient follower": {
+   "found_EVE": 0.06666666666666667,
+   "localized_within_2": 0.3,
+   "median_error": 4.62,
+   "mean_ticks_when_found": 43.5
+  },
+  "Lawnmower sweep": {
+   "found_EVE": 0.06666666666666667,
+   "localized_within_2": 0.06666666666666667,
+   "median_error": 11.025,
+   "mean_ticks_when_found": 29.0
+  },
+  "Random walk": {
+   "found_EVE": 0.0,
+   "localized_within_2": 0.0,
+   "median_error": 12.04,
+   "mean_ticks_when_found": NaN
+  }
+ },
+ "brier": 0.19350071262831953
+}
